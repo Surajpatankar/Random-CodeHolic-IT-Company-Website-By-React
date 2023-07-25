@@ -1,0 +1,197 @@
+.portfolio{
+    width: 100%;
+    height: 100vh;
+}
+.porthead{
+    display: flex;
+    background-color: antiquewhite;
+    width: 100%;
+}
+
+.headerr{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 100 0px;
+  margin-left: 750px;
+}
+.settingg{
+    margin-left:100px ;
+    cursor: pointer;
+}
+.settingg:hover{
+    cursor: pointer;
+}
+.headerr h1{
+    font-size: 58px;
+    color: blueviolet;
+    font-weight: 500;
+    margin-top: 100px;
+}
+.anchor{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(236, 30, 164);
+    font-weight: 500;
+    text-align: center;
+}
+.anchor p{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+.setting{
+    display: flex;
+    margin-left: 70%;
+    margin-bottom: 300px;
+}
+
+
+.ghi{
+    font-size:15px;
+    padding: 70px;
+}
+.imgport{
+    border: 25px solid rgb(176, 170, 170);
+    border-radius: 15px;
+    box-shadow: 10px 20px 20px 0 grey;
+    
+}
+.ghi{
+   vertical-align: middle;
+   filter: grayscale(20%);
+   transition: transform 0.7s ease-out ,filter 0.7s ease-out;
+}
+.ghi:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+.portcontent h1{
+    margin-top: 30px;
+    color: blueviolet;
+    font-weight: 500;
+}
+.portcontent  p {
+        font-size: 20px;
+        margin-top: 10px;
+        color: gray;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.portcontimg{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(36, 29, 87);
+   
+
+}
+.footer p{
+    text-align: center;
+    display: flex;
+    font-size: 17px;
+    color: white;
+    align-items: center;
+    margin-left: 100px;
+    padding: 40px;
+}
+.footer span{
+    color: rgb(255, 8, 234);
+}
+
+ .imgarea::after{
+    width: 400px;
+    position: absolute;
+    left: 0;
+
+
+}
+.imagee{
+    width: 420px;
+    position: relative;
+    border: 20px solid gray;
+    border-radius: 10px;
+    margin: 20px 40px;
+    text-align: center;
+}
+
+.imgpo{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.cuntent{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.7s;
+    opacity: 0;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.cuntent:hover{
+    opacity: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
+.cuntent h1{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background: whitesmoke;
+    border-radius: 9px;
+}
+.cuntent h1{
+    background: rgb(255, 91, 145);
+}
+.cuntent > *{
+    transform: translateY((25px));
+    transition: 0.4s;
+
+}
+.cuntent:hover > *{
+    transform: translateY(0px);
+}
+
+.sum{
+    border: 20px solid rgb(255, 255, 255);
+    border-radius: none;
+    text-align: center;
+
+}
+.sum h1{
+    color: rgb(130, 4, 248);
+    font-weight: 500;
+}
+.sum p{
+    color: rgb(50,55,55);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.portfolio_img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

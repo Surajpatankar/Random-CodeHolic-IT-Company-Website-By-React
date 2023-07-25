@@ -1,0 +1,112 @@
+.blog{
+    width: 100%;
+    height: 160vh;
+}
+
+.blogerr{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 100px 0px;
+    margin-left: 500px;
+    
+  }
+  .set{
+     width: 450px;
+     height: 400px;
+     margin-right: 100px;
+     margin-top: 10px;
+  }
+
+  .settingg{
+      margin-left:200px ;
+  }
+  .settingg:hover{
+      cursor: pointer;
+  }
+  .bladerr h1{
+      font-size: 58px;
+      color: blueviolet;
+      font-weight: 500;
+  }
+  .anchor{
+      display: flex;
+      justify-content: center;
+      margin-top: 80px;
+      font-size: 20px;
+      text-decoration: none;
+      color: rgb(236, 30, 164);
+      font-weight: 500;
+      text-align: center;
+  }
+  .anchor p{
+      font-size: 20px;
+      color: black;
+      font-weight: 500;
+  }
+  .setting{
+      display: flex;
+      margin-left: 70%;
+      margin-bottom: 300px;
+  }
+
+  .bllog_content{
+    
+      width: 70%;
+      height: 600px;
+      /* border:  solid black; */
+      padding: 30px;
+      margin: 110px;
+    box-shadow: 20px 30px 30px 10px rgb(143, 134, 134);
+
+      border-radius: 10px;
+  }
+  .bllog_content:hover{
+    box-shadow: 10px 20px 20px 0 black;
+
+
+  }
+  .vvlog_content h1{
+     font-size: 28px;
+     font-weight: 500;
+     padding: 15px;
+     color: blue;
+  }
+  .vvlog_content h1:hover{
+    color: rgb(237, 12, 87);
+  }
+  .vvlog_content h6{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: rgb(24, 23, 23);
+    overflow: hidden;
+  }
+  .vvlog_content p{
+    font-size: 22px;
+    word-spacing: 10px;
+    margin-top: 25px;
+    color: rgb(72, 78, 84);
+    margin-bottom: 20px;
+  }
+  .bblog_read {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  .bblog_read:hover{
+    color: red;
+  }
+  .blogger{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* SLIDER STYLING */
+   
+.swiper {
+    width: 100%;
+    height: auto;
+  }
+ .blog_content{
+    width: 20%;
+ }

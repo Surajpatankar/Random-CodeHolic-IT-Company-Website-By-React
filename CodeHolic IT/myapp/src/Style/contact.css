@@ -1,0 +1,106 @@
+.contact_heading{
+    width: 100%;
+    height: 12vh;
+}
+.contact_heading h1{
+    font-size: 50px;
+    margin-left: 130px;
+    font-weight: 500;
+    /* color: rgb(23, 17, 17); */
+    background-image: linear-gradient(to left , orange,black,rgb(255, 26, 133),rgb(15, 255, 15),blue, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  
+}
+.contact_heading p{
+    margin-left: 130px;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.contact_page{
+    display: flex;
+    height: 100vh;
+}
+.contact_info1{
+    width: 80%;
+    padding: 20px 100px;
+}
+input{
+    width: 100%;
+    padding: 10px 20px ;
+    color: black;
+    margin-top: 10px;
+    border-radius: 11px;
+    font-size: 17px;
+
+}
+input:invalid{
+    animation: snake .3s 5;
+}
+@keyframes snake{
+    25%{
+        translate: 6px 0;
+    }
+    50%{
+        translate: -6px 0;
+    }
+    75%{
+        translate: 6px 0;
+    }
+}
+input,textarea:hover{
+    border-color: blueviolet;
+}
+textarea{
+    width: 100%;
+    padding: 10px 20px ;
+    color: black;
+    border-radius: 11px;
+    font-size: 17px;
+    margin-bottom: 30px;
+
+
+}
+.contact_info1 p{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.contact_info{
+    padding: 55px 0 ;
+    
+}
+.contact_info h1{
+    font-weight: 600;
+    color: rgb(53, 51, 51);
+}
+.gmail{
+    color: rgb(14, 138, 220);
+}
+.contact_info p{
+    font-size: 20px;
+    margin-right: 300px;
+    margin-top: 30px;
+}
+.iconss{
+    font-size: 50px;
+    margin-top: 10px;
+    color: rgb(235, 48, 129);
+}
+.submit{
+    background-color: rgb(237, 56, 176);
+    color: white;
+    font-size: 20px;
+}
+.submit:hover{
+    background-color: palevioletred;
+}
+.call{
+    width: 350px;
+    height: 350px;
+    margin-right: 140px;
+    margin-top: 50px;
+}

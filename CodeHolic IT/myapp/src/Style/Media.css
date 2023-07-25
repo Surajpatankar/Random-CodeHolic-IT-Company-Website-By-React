@@ -1,0 +1,186 @@
+/* @media (max-width:820px){
+    *{
+        margin: 0;
+        padding: 0;
+      
+    }
+    
+    .navbar{
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       position: relative;
+        right: 8%;
+       display: flex;
+
+    }
+    .img1{
+        width: 170px;
+        height: 40px;
+    }
+    .navv ul li a{
+        font-size: 10px;
+        position: relative;
+        right: 10%;
+         padding:-30px;
+    }
+    .maincontent{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+       padding : 10px;
+       position: relative;
+       right: 12%;
+       height: 30vh;
+       
+    }
+  }
+   /* .cont1 h1{
+    font-size: 30px;
+   }
+   .cont1 p{
+    font-size: 17px;
+    width: 300px;
+   }
+   
+   .contactb {
+    font-size: 14px;
+    padding: -10px -10px;
+   }
+   .cont2{
+    display: none;
+   }
+
+   /* SECOND SECTION */
+   /* .sec4 h1{
+    font-size: 15px;
+   }
+   .sec4 p{
+    font-size: 11px;
+    line-height: normal;
+    
+   }
+   .contimg{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 20%;
+    position: relative;
+   }
+
+   .sec3{
+    width: 200px;
+    height: 220px;
+    left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    margin:-01px;
+    margin: 70px 80px;
+    position: relative;
+
+   }
+   .sec2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 0;
+    top: 0;
+   }
+   .mdsec{
+     margin-top: -20px;
+   }
+   .mdsec1{
+    margin-top: 100px;
+   }
+
+   /* COUNTUP SECION */
+   /* .countup{
+     width: 600px;
+     display: flex;
+     flex-wrap: wrap;
+     position: relative;
+     right:11%;
+     
+   }
+   .count1{
+    margin: -3px;
+   }
+   .counthead h1{
+    font-size: 24px;
+    margin: -20px ;
+    color: red;
+   }
+   .counthead p{
+    font-size: 14px;
+   }
+   .font{
+    font-size: 18px;
+    display: none;
+   }
+   .count{
+    margin: -10px ;
+   }
+   .satis{
+    margin-left: 12px;
+   }
+   .patis{
+    margin-left: 30px;
+   }
+   /* FEATURE SECTON */
+   /* .feature_head{
+    width: 500px;
+    border: 1ps black;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 6px;
+
+   } */ 
+   /* .feature_head h1{
+    font-size: 26px;
+    position: relative;
+    text-align: center;
+    right: 50px;
+   }
+   .feature_head p{
+    text-align: center;
+    font-size: 14px;
+    width: 420px;
+   }
+  .web_feature h1{
+    font-size: 20px;
+  }
+  .web_feature p{
+    font-size: 14px;
+  }
+  .feautureed1{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 20%;
+  } */
+  /* .fafdu{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 160%;
+  }
+
+ 
+  .samsung{
+      position: relative;
+      top: 60vh;
+      right: 30%;
+      
+  }
+  .samsunggalaxy{
+    height: 250px;
+    width: 250px;
+
+  }
+  .featimg{
+    width: 60px;
+    height: 60px;
+  }
+}  */ 
